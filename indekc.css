@@ -1,0 +1,54 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.maincontain{
+    height: 100vh;
+    background-color: bisque;
+}
+
+.flagin{
+    height: 200px;
+    width: 350px;;
+    background-color: green;
+    position: relative;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%,-50%);
+}
+.red{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 100%;
+}
+.khamba{
+    height: 220px;
+    width: 20px;
+    background-color: black;
+    position: relative;
+    top: 50%;
+    border-top-right-radius: 10%;
+}
+/* .hatol{
+    height: 80px;
+    width: 150px;
+    background-color: black;
+    position: relative;
+    top: 100%;
+} */
+.foot{
+    height: 60px;
+    width: 80px;
+    background-color: black;
+    position: absolute;
+    top: 100%;
+    /* left: 0%; */
+    /* transform: translate(-50%,-50%); */
+    /* right: 50%; */
+    transform: translate(-40%);
+}
